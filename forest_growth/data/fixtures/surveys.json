@@ -1,0 +1,931 @@
+{
+  "meta": {
+    "description": "虚构固定样地数据，仅用于系统演示与验收",
+    "units": {
+      "dbh": "cm（每条记录显式携带）",
+      "height": "m（每条记录显式携带）",
+      "biomass": "kg 烘干重"
+    },
+    "species": {
+      "PIMA": "马尾松 Pinus massoniana",
+      "CULA": "杉木 Cunninghamia lanceolata"
+    },
+    "measurement_error_assumption": {
+      "dbh_sd_cm": 0.3,
+      "height_sd_m": 0.5
+    }
+  },
+  "strata": [
+    {
+      "code": "H1",
+      "name": "下坡马尾松层",
+      "area_ha": 120.0
+    },
+    {
+      "code": "H2",
+      "name": "上坡杉木混交层",
+      "area_ha": 80.0
+    }
+  ],
+  "surveys": [
+    {
+      "survey_no": "T1-2019",
+      "survey_date": "2019-08-15",
+      "status": "approved",
+      "approved_by": "林研站-周工",
+      "remark": "第一次调查（虚构）"
+    },
+    {
+      "survey_no": "T2-2024",
+      "survey_date": "2024-08-20",
+      "status": "approved",
+      "approved_by": "林研站-周工",
+      "remark": "第二次调查（虚构，五年间隔）"
+    }
+  ],
+  "plots": [
+    {
+      "plot_id": "P01",
+      "stratum_code": "H1",
+      "area_ha": 0.06,
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.32,
+              26.55
+            ],
+            [
+              117.32020096,
+              26.55
+            ],
+            [
+              117.32020096,
+              26.55026949
+            ],
+            [
+              117.32,
+              26.55026949
+            ],
+            [
+              117.32,
+              26.55
+            ]
+          ]
+        ]
+      },
+      "centroid": {
+        "type": "Point",
+        "coordinates": [
+          117.32,
+          26.55
+        ]
+      }
+    },
+    {
+      "plot_id": "P02",
+      "stratum_code": "H1",
+      "area_ha": 0.08,
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.355,
+              26.572
+            ],
+            [
+              117.35520096,
+              26.572
+            ],
+            [
+              117.35520096,
+              26.57226949
+            ],
+            [
+              117.355,
+              26.57226949
+            ],
+            [
+              117.355,
+              26.572
+            ]
+          ]
+        ]
+      },
+      "centroid": {
+        "type": "Point",
+        "coordinates": [
+          117.355,
+          26.572
+        ]
+      }
+    },
+    {
+      "plot_id": "P03",
+      "stratum_code": "H2",
+      "area_ha": 0.05,
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.28,
+              26.49
+            ],
+            [
+              117.28020096,
+              26.49
+            ],
+            [
+              117.28020096,
+              26.49026949
+            ],
+            [
+              117.28,
+              26.49026949
+            ],
+            [
+              117.28,
+              26.49
+            ]
+          ]
+        ]
+      },
+      "centroid": {
+        "type": "Point",
+        "coordinates": [
+          117.28,
+          26.49
+        ]
+      }
+    },
+    {
+      "plot_id": "P04",
+      "stratum_code": "H2",
+      "area_ha": 0.05,
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.265,
+              26.505
+            ],
+            [
+              117.26520096,
+              26.505
+            ],
+            [
+              117.26520096,
+              26.50526949
+            ],
+            [
+              117.265,
+              26.50526949
+            ],
+            [
+              117.265,
+              26.505
+            ]
+          ]
+        ]
+      },
+      "centroid": {
+        "type": "Point",
+        "coordinates": [
+          117.265,
+          26.505
+        ]
+      }
+    }
+  ],
+  "trees": [
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-001",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32005024,
+          26.55004492
+        ]
+      },
+      "plot_x_m": 5.0,
+      "plot_y_m": 5.0,
+      "dbh_value": 12.0,
+      "dbh_unit": "cm",
+      "height_value": 9.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-002",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32008039,
+          26.55002695
+        ]
+      },
+      "plot_x_m": 8.0,
+      "plot_y_m": 3.0,
+      "dbh_value": 14.5,
+      "dbh_unit": "cm",
+      "height_value": 10.5,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-003",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32012058,
+          26.55006288
+        ]
+      },
+      "plot_x_m": 12.0,
+      "plot_y_m": 7.0,
+      "dbh_value": 18.0,
+      "dbh_unit": "cm",
+      "height_value": 13.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-004",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32016077,
+          26.55008085
+        ]
+      },
+      "plot_x_m": 16.0,
+      "plot_y_m": 9.0,
+      "dbh_value": 20.0,
+      "dbh_unit": "cm",
+      "height_value": 14.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-005",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32020096,
+          26.5501078
+        ]
+      },
+      "plot_x_m": 20.0,
+      "plot_y_m": 12.0,
+      "dbh_value": 22.0,
+      "dbh_unit": "cm",
+      "height_value": 15.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-006",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32022106,
+          26.55013475
+        ]
+      },
+      "plot_x_m": 22.0,
+      "plot_y_m": 15.0,
+      "dbh_value": 24.0,
+      "dbh_unit": "cm",
+      "height_value": 16.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-007",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32003014,
+          26.55017966
+        ]
+      },
+      "plot_x_m": 3.0,
+      "plot_y_m": 20.0,
+      "dbh_value": 16.2,
+      "dbh_unit": "cm",
+      "height_value": 11.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T1-2019",
+      "tag": "P01-008",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32025121,
+          26.5500539
+        ]
+      },
+      "plot_x_m": 25.0,
+      "plot_y_m": 6.0,
+      "dbh_value": 10.0,
+      "dbh_unit": "cm",
+      "height_value": 8.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-001",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32005074,
+          26.5500451
+        ]
+      },
+      "plot_x_m": 5.05,
+      "plot_y_m": 5.02,
+      "dbh_value": 12.8,
+      "dbh_unit": "cm",
+      "height_value": 9.4,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-002",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32008039,
+          26.5500274
+        ]
+      },
+      "plot_x_m": 8.0,
+      "plot_y_m": 3.05,
+      "dbh_value": 15.3,
+      "dbh_unit": "cm",
+      "height_value": 11.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-003",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32012058,
+          26.55006288
+        ]
+      },
+      "plot_x_m": 12.0,
+      "plot_y_m": 7.0,
+      "dbh_value": 18.1,
+      "dbh_unit": "cm",
+      "height_value": 13.1,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-104",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32016127,
+          26.55008103
+        ]
+      },
+      "plot_x_m": 16.05,
+      "plot_y_m": 9.02,
+      "dbh_value": 21.2,
+      "dbh_unit": "cm",
+      "height_value": 14.6,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-005",
+      "species_code": "CULA",
+      "status": "dead",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32020096,
+          26.5501078
+        ]
+      },
+      "plot_x_m": 20.0,
+      "plot_y_m": 12.0,
+      "dbh_value": null,
+      "dbh_unit": "cm",
+      "height_value": null,
+      "height_unit": "m",
+      "remark": "伐桩，确认死亡"
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-006",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32022106,
+          26.55013475
+        ]
+      },
+      "plot_x_m": 22.0,
+      "plot_y_m": 15.0,
+      "dbh_value": null,
+      "dbh_unit": "cm",
+      "height_value": null,
+      "height_unit": "m",
+      "remark": "胸径漏测"
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-007",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32021101,
+          26.55003593
+        ]
+      },
+      "plot_x_m": 21.0,
+      "plot_y_m": 4.0,
+      "dbh_value": 17.0,
+      "dbh_unit": "cm",
+      "height_value": 12.0,
+      "height_unit": "m",
+      "remark": "编号漆字模糊，疑似补号"
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-008",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32025121,
+          26.55005408
+        ]
+      },
+      "plot_x_m": 25.0,
+      "plot_y_m": 6.02,
+      "dbh_value": 10.9,
+      "dbh_unit": "cm",
+      "height_value": 8.5,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-201",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32010048,
+          26.5501617
+        ]
+      },
+      "plot_x_m": 10.0,
+      "plot_y_m": 18.0,
+      "dbh_value": 6.2,
+      "dbh_unit": "cm",
+      "height_value": 4.5,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P01",
+      "survey_no": "T2-2024",
+      "tag": "P01-202",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.32014068,
+          26.55001797
+        ]
+      },
+      "plot_x_m": 14.0,
+      "plot_y_m": 2.0,
+      "dbh_value": 3.4,
+      "dbh_unit": "cm",
+      "height_value": 2.6,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T1-2019",
+      "tag": "P02-001",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.35504019,
+          26.57203593
+        ]
+      },
+      "plot_x_m": 4.0,
+      "plot_y_m": 4.0,
+      "dbh_value": 15.0,
+      "dbh_unit": "cm",
+      "height_value": 11.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T1-2019",
+      "tag": "P02-002",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.35509043,
+          26.57208085
+        ]
+      },
+      "plot_x_m": 9.0,
+      "plot_y_m": 9.0,
+      "dbh_value": 19.0,
+      "dbh_unit": "cm",
+      "height_value": 14.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T1-2019",
+      "tag": "P02-003",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.35514068,
+          26.57202695
+        ]
+      },
+      "plot_x_m": 14.0,
+      "plot_y_m": 3.0,
+      "dbh_value": 23.0,
+      "dbh_unit": "cm",
+      "height_value": 16.5,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T2-2024",
+      "tag": "P02-001",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.3550407,
+          26.57203593
+        ]
+      },
+      "plot_x_m": 4.05,
+      "plot_y_m": 4.0,
+      "dbh_value": 16.1,
+      "dbh_unit": "cm",
+      "height_value": 11.6,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T2-2024",
+      "tag": "P02-002",
+      "species_code": "CULA",
+      "status": "dead",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.35509043,
+          26.57208085
+        ]
+      },
+      "plot_x_m": 9.0,
+      "plot_y_m": 9.0,
+      "dbh_value": null,
+      "dbh_unit": "cm",
+      "height_value": null,
+      "height_unit": "m",
+      "remark": "枯立木"
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T2-2024",
+      "tag": "P02-003",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.35514088,
+          26.57202713
+        ]
+      },
+      "plot_x_m": 14.02,
+      "plot_y_m": 3.02,
+      "dbh_value": 24.1,
+      "dbh_unit": "cm",
+      "height_value": 17.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P02",
+      "survey_no": "T2-2024",
+      "tag": "P02-101",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.35520096,
+          26.57217966
+        ]
+      },
+      "plot_x_m": 20.0,
+      "plot_y_m": 20.0,
+      "dbh_value": 7.0,
+      "dbh_unit": "cm",
+      "height_value": 5.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P03",
+      "survey_no": "T1-2019",
+      "tag": "P03-001",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.2800201,
+          26.49001797
+        ]
+      },
+      "plot_x_m": 2.0,
+      "plot_y_m": 2.0,
+      "dbh_value": 11.0,
+      "dbh_unit": "cm",
+      "height_value": 8.5,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P03",
+      "survey_no": "T1-2019",
+      "tag": "P03-002",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.28007034,
+          26.4900539
+        ]
+      },
+      "plot_x_m": 7.0,
+      "plot_y_m": 6.0,
+      "dbh_value": 17.0,
+      "dbh_unit": "cm",
+      "height_value": 12.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P03",
+      "survey_no": "T2-2024",
+      "tag": "P03-001",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.2800201,
+          26.49001815
+        ]
+      },
+      "plot_x_m": 2.0,
+      "plot_y_m": 2.02,
+      "dbh_value": 12.0,
+      "dbh_unit": "cm",
+      "height_value": 9.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P03",
+      "survey_no": "T2-2024",
+      "tag": "P03-002",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.28007054,
+          26.4900539
+        ]
+      },
+      "plot_x_m": 7.02,
+      "plot_y_m": 6.0,
+      "dbh_value": 18.2,
+      "dbh_unit": "cm",
+      "height_value": 12.6,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P03",
+      "survey_no": "T2-2024",
+      "tag": "P03-101",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.28011053,
+          26.49008983
+        ]
+      },
+      "plot_x_m": 11.0,
+      "plot_y_m": 10.0,
+      "dbh_value": 5.6,
+      "dbh_unit": "cm",
+      "height_value": 4.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P04",
+      "survey_no": "T1-2019",
+      "tag": "P04-001",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.26503014,
+          26.50507186
+        ]
+      },
+      "plot_x_m": 3.0,
+      "plot_y_m": 8.0,
+      "dbh_value": 20.0,
+      "dbh_unit": "cm",
+      "height_value": 14.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P04",
+      "survey_no": "T1-2019",
+      "tag": "P04-002",
+      "species_code": "CULA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.26508039,
+          26.50502695
+        ]
+      },
+      "plot_x_m": 8.0,
+      "plot_y_m": 3.0,
+      "dbh_value": 13.0,
+      "dbh_unit": "cm",
+      "height_value": 10.0,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P04",
+      "survey_no": "T2-2024",
+      "tag": "P04-001",
+      "species_code": "PIMA",
+      "status": "alive",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.26503035,
+          26.50507186
+        ]
+      },
+      "plot_x_m": 3.02,
+      "plot_y_m": 8.0,
+      "dbh_value": 20.9,
+      "dbh_unit": "cm",
+      "height_value": 14.4,
+      "height_unit": "m",
+      "remark": ""
+    },
+    {
+      "plot_id": "P04",
+      "survey_no": "T2-2024",
+      "tag": "P04-002",
+      "species_code": "CULA",
+      "status": "dead",
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          117.26508039,
+          26.50502695
+        ]
+      },
+      "plot_x_m": 8.0,
+      "plot_y_m": 3.0,
+      "dbh_value": null,
+      "dbh_unit": "cm",
+      "height_value": null,
+      "height_unit": "m",
+      "remark": ""
+    }
+  ],
+  "crosswalks": [
+    {
+      "plot_id": "P01",
+      "survey_t1": "T1-2019",
+      "survey_t2": "T2-2024",
+      "tag_t1": "P01-004",
+      "tag_t2": "P01-104",
+      "confirmed_by": "复测组-吴工",
+      "note": "外业确认改号（漆字脱落重新编号）"
+    }
+  ]
+}

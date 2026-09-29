@@ -1,0 +1,7 @@
+Django>=4.2,<5.2
+djangorestframework>=3.15
+psycopg[binary]>=3.1
+# 系统还需 GDAL / GEOS / PROJ 共享库（PostGIS 依赖）：
+#   Debian/Ubuntu: apt-get install gdal-bin libgdal-dev libgeos-dev libproj-dev postgis
+numpy>=1.26
+# scipy 可选：存在时 t 分位用 scipy；缺失时核心自动用内置数值求逆

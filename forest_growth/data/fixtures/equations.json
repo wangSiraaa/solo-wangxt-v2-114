@@ -1,0 +1,122 @@
+[
+  {
+    "release_id": "eq-2015-v1",
+    "published_on": "2015-03-01",
+    "description": "研究站 2015 年马尾松/杉木地上生物量方程（虚构，仅测试）",
+    "is_active": true,
+    "payload": {
+      "release_id": "eq-2015-v1",
+      "published_on": "2015-03-01",
+      "description": "研究站 2015 年马尾松/杉木地上生物量方程（虚构，仅测试）",
+      "equations": [
+        {
+          "equation_id": "PIMA-AGB-2015",
+          "version": "1.0",
+          "form": "power_dbh",
+          "params": [
+            0.1056,
+            2.4
+          ],
+          "biomass_component": "agb_oven_dry_kg",
+          "species": [
+            "PIMA"
+          ],
+          "dbh_domain_cm": [
+            5.0,
+            80.0
+          ],
+          "region": "南方低山丘陵",
+          "residual_cv": 0.18,
+          "source_citation": "虚构文献: 罗云翔 2015 马尾松生物量模型(测试用)",
+          "published_on": "2015-03-01",
+          "needs_height": false,
+          "allometric_formula_human": "AGB(kg) = 0.1056 × D(cm)^2.4；适用树种: ['PIMA']"
+        },
+        {
+          "equation_id": "CULA-AGB-2015",
+          "version": "1.0",
+          "form": "power_dbh_height",
+          "params": [
+            0.071,
+            2.1,
+            0.65
+          ],
+          "biomass_component": "agb_oven_dry_kg",
+          "species": [
+            "CULA"
+          ],
+          "dbh_domain_cm": [
+            5.0,
+            60.0
+          ],
+          "region": "南方低山丘陵",
+          "residual_cv": 0.15,
+          "source_citation": "虚构文献: 陈宗昊 2015 杉树干材+树高方程(测试用)",
+          "published_on": "2015-03-01",
+          "needs_height": true,
+          "allometric_formula_human": "AGB(kg) = 0.071 × D(cm)^2.1 × H(m)^0.65；适用树种: ['CULA']"
+        }
+      ]
+    }
+  },
+  {
+    "release_id": "eq-2024-v2",
+    "published_on": "2024-06-01",
+    "description": "2024 修订：马尾松参数更新（虚构）；杉木沿用 v1",
+    "is_active": false,
+    "payload": {
+      "release_id": "eq-2024-v2",
+      "published_on": "2024-06-01",
+      "description": "2024 修订：马尾松参数更新（虚构）；杉木沿用 v1",
+      "equations": [
+        {
+          "equation_id": "PIMA-AGB-2024",
+          "version": "2.0",
+          "form": "power_dbh",
+          "params": [
+            0.118,
+            2.38
+          ],
+          "biomass_component": "agb_oven_dry_kg",
+          "species": [
+            "PIMA"
+          ],
+          "dbh_domain_cm": [
+            5.0,
+            90.0
+          ],
+          "region": "南方低山丘陵",
+          "residual_cv": 0.16,
+          "source_citation": "虚构文献: 罗云翔 2024 马尾松修订模型(测试用)",
+          "published_on": "2024-06-01",
+          "needs_height": false,
+          "allometric_formula_human": "AGB(kg) = 0.118 × D(cm)^2.38；适用树种: ['PIMA']"
+        },
+        {
+          "equation_id": "CULA-AGB-2015",
+          "version": "1.0",
+          "form": "power_dbh_height",
+          "params": [
+            0.071,
+            2.1,
+            0.65
+          ],
+          "biomass_component": "agb_oven_dry_kg",
+          "species": [
+            "CULA"
+          ],
+          "dbh_domain_cm": [
+            5.0,
+            60.0
+          ],
+          "region": "南方低山丘陵",
+          "residual_cv": 0.15,
+          "source_citation": "虚构文献: 陈宗昊 2015 杉树干材+树高方程(测试用)",
+          "published_on": "2015-03-01",
+          "needs_height": true,
+          "allometric_formula_human": "AGB(kg) = 0.071 × D(cm)^2.1 × H(m)^0.65；适用树种: ['CULA']"
+        }
+      ]
+    }
+  }
+]
